@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+os.system("pip install pymupdf")
 import fitz
 import re
 import pandas as pd
